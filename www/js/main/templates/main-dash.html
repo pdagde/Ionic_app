@@ -1,0 +1,51 @@
+
+<ion-view title="Evok Analytic" hide-back-button="true">
+
+  <div style="padding-top: 50px;background-color: #F5F5F5;">
+
+
+    <ion-content class="content-stable has-header has-subheader positive margin-right" style="margin-top:-4px;">
+      <div class="card homeCards homeCards col-offset-25 col-50" style="text-align: center"
+           ng-click="smilyesCall('Happy')">
+        <div class="item item-text-wrap" style="background-color: lightseagreen">
+          <h3 style="color:#FFFFFF; text-align: center; font-size: 22px; font-weight: bolder;">SMILE</h3>
+          <button>
+            🤗
+          </button>
+        </div>
+      </div>
+
+      <div class="card homeCards homeCards col-offset-25 col-50" style="text-align: center"
+
+           ng-click="smilyesCall('Sad')">
+        <div class="item item-text-wrap" style="background-color: #81C784;">
+          <h3 style="color:#FFFFFF; text-align: center; font-size: 22px; font-weight: bolder;">SAD</h3>
+          <button>
+            🤗
+          </button>
+        </div>
+      </div>
+
+      <div class="card homeCards col-offset-25 col-50" style="text-align: center"
+
+           ng-click="smilyesCall('Rocking')">
+        <div class="item item-text-wrap" style="background-color: #EF5350;">
+          <h3 style="color:#FFFFFF; text-align: center; font-size: 22px; font-weight: bolder;">ROCK</h3>
+          <button>
+            🤗
+          </button>
+        </div>
+      </div>
+
+      <div class="card homeCards "
+           ng-show="showmesg"
+           style="background-color: white; width: 94% !important; margin-left:3%!important;">
+        <div class="item item-text-wrap" style="background-color: #886aea;">
+          <h3 style="color:#FFFFFF; text-align: center; font-size: 22px; font-weight: bolder;"> {{showmesg}}
+          </h3>
+        </div>
+      </div>
+    </ion-content>
+  </div>
+</ion-view>
+
